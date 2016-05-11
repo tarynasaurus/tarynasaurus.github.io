@@ -1,6 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Lato:400italic);
 	
+header{
+  background-color:#FFED74;
+  border: 1px black solid;
+  padding: 20px;
+}  
 body{
   font-family: 'lobster',cursive;
   text-align: center;
