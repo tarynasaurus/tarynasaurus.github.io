@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Lato:400italic);
+
+body{
+  font-size: 30px;
+  font-family: 'Lobster';
+}	
+
+header{
+  background-color:#008000;
+  border: 1px black solid;
+  padding: 18px;
+} 
+header a{
+  text-decoration:none;
+  color: black;
+  margin: 1.8em;
+  display: inline-block;
+}
+ 
+aside{
+  background-color:#008B8B;
+  border: 0px black solid;
+  padding: 0px;
+  width: 50%;
+}
+article{
+  background-color:#E89C6C;
+  border: 0px black solid;
+  padding: 0px;
+  width:50%;
+}
+footer{
+  background-color:#FF957E;
+  border:1px black solid;
+  padding: 20px;
+}
+div{
+  background-color:white;
+background-image:
+radial-gradient(midnightblue 9px, transparent 10px),        
+repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
+background-size: 30px 30px, 90px 90px; 
+background-position: 0 0;
+  border: 1px black solid;
+  padding: 20px;
+}
+section{
+  background-color:#FFE2B8;
+  border: 1px black solid;
+  padding: 20px;
+}
+#two_column{
+  background-color:#FFB7CF;
+  border: 1px black solid;
+  padding: 20px;
+}
+#left{
+  background-color:#00FFFF;
+  border: 1px black solid;
+  padding: 10px;
+  float: left;
+  width: 40%;
+}
+#right{
+  background-color: #DC143C;
+  border: 1px black solid;
+  padding: 10px;
+  float: right;
+  width: 40%;
+}
+.clearfix:after{
+  visibility:hidden;
+  display:block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height:0;
+}
